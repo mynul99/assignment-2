@@ -27,11 +27,13 @@ nav ul li{
        
 }
 nav h3{
+       display: flex;
+       align-items: center;
        color: #131318;
        font-family: Mulish;
        font-size:2.02rem;
-       font-style: normal;
        font-weight: 800;
+       
     
 }
 nav img{
@@ -41,10 +43,16 @@ nav img{
 .color{
        color: #FF5400;
 }
+#menu-bar{
+       font-size: 1rem;
+       color: #131318;
+       display: none;
+       
+}
  
 /*banner styles*/
 .banner-section{
-       background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+       background: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
        height: 100%;
        width: 100%;
        background-repeat: no-repeat;
@@ -109,4 +117,20 @@ nav img{
        font-weight: 700;
 }
       
-        
+   /*responsive*/
+@media screen and (max-width:600px) {
+       nav{
+              justify-content: space-around;
+       }
+       
+       #menu-bar{
+              display:block;
+       }
+       nav ul li{
+              display: none;
+       }
+       nav h3{
+              font-size: 1rem;
+       }
+       
+}     
