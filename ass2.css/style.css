@@ -184,6 +184,49 @@ font-weight: 400;
        font-size:1rem;
        font-weight: 400;
 }
+/*chose section*/
+.container{
+       display: flex;
+       justify-content: center;
+       gap:24px ;
+       margin-bottom: 24px;
+}
+.container h3{
+       color: #131318;
+font-family: Mulish;
+font-size:1.50rem;
+font-weight: 800;
+
+}
+.container p{
+       color: #5A5A5D;
+font-family: Mulish;
+font-size:1rem;
+font-weight: 400;
+
+}
+.hotel  {
+       width: 573px;
+       padding: 128px 55px 32px 32px;
+       border-radius: 16px;
+       border: 1px solid rgba(251, 181, 99, 0.20);
+       background: rgba(251, 181, 99, 0.05);
+}
+.service{
+       width: 573px;
+       padding: 128px 55px 32px 32px;
+       border-radius: 16px;
+       border: 1px solid rgba(41, 206, 246, 0.20);
+       background: rgba(41, 206, 246, 0.05);     
+}
+.guarantee{
+       width: 573px;
+       padding: 128px 55px 32px 32px;
+       border-radius: 16px;
+       border: 1px solid rgba(233, 68, 68, 0.20);
+       background: rgba(233, 68, 68, 0.05);
+}
+
  
    
    /*responsive*/
@@ -200,6 +243,11 @@ font-weight: 400;
        }
        nav h3{
               font-size: 1rem;
+       }
+       .row,
+       .popular
+       {
+              flex-direction: column;
        }
        
 }     
