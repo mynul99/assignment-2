@@ -430,30 +430,39 @@ left: 300px;
 }
 /*footer section*/
 .footer-box{
-       
+     
        text-align: center;
 }
 footer h3{
-       margin-left: 245px;
-       display: flex;
-       align-items: center;
        color: #131318;
+       
+       align-items: center;
+       text-align: center;
+       margin: auto;
+       margin-bottom:10px ;
        font-family: Mulish;
        font-size:2.02rem;
        font-weight: 800;
+       
 }
 footer p{
-color: #5A5A5D;
+
+       color: #5A5A5D;
        width: 769px;
        text-align: center;
-font-family: Mulish;
-font-size:1rem;
-font-weight: 400;
-margin-bottom: 50px;
+       margin: auto;
+       font-family: Mulish;
+       font-size:1rem;
+       font-weight: 400;
+       margin-bottom: 50px;
 
 }
 footer i{
        font-size: 2rem;
+}
+.hr-2{
+       width: 872px;
+       height: 1px; 
 }
  
    
